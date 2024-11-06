@@ -33,7 +33,7 @@
                 <form id="loginForm" action="{{ route('gate.login.submit') }}" method="post">
                     @csrf
                     <div class="input-group mb-3">
-                        <input id="account" type="account" placeholder="請輸入帳號" class="form-control {{ $errors->has('account') ? ' is-invalid' : '' }}" name="account" value="{{ old('account') }}" required autofocus>
+                        <input id="account" type="account" placeholder="請輸入帳號，訪客輸入 guest" class="form-control {{ $errors->has('account') ? ' is-invalid' : '' }}" name="account" value="{{ old('account') }}" required autofocus>
                         <div class="input-group-append">
                             <div class="input-group-text">
                                 <span class="fas fa-envelope"></span>
@@ -46,7 +46,7 @@
                         @endif
                     </div>
                     <div class="input-group mb-3">
-                        <input id="password" type="password" placeholder="請輸入密碼" class="form-control {{ $errors->has('password') ? ' is-invalid' : '' }}" name="password" required>
+                        <input id="password" type="password" placeholder="請輸入密碼，訪客輸入 guest1688" class="form-control {{ $errors->has('password') ? ' is-invalid' : '' }}" name="password" required>
                         <div class="input-group-append">
                             <div class="input-group-text">
                                 <span class="fas fa-lock"></span>
