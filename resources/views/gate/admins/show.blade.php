@@ -100,6 +100,7 @@
                                     <div class="form-group col-3">
                                         <label for="email"><span class="text-red">* </span>兩階段驗證方法</label>
                                         <select type="text" class="form-control {{ $errors->has('sms_vendor') ? ' is-invalid' : '' }}" name="verify_mode">
+                                            <option value="" {{ isset($admin) && $admin->verify_mode == '' ? 'selected' : '' }}>關閉</option>
                                             <option value="sms" {{ isset($admin) && $admin->verify_mode == 'sms' ? 'selected' : '' }}>簡訊</option>
                                             <option value="2fa" {{ isset($admin) && $admin->verify_mode == '2fa' ? 'selected' : '' }}>驗證器</option>
                                         </select>

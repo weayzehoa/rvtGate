@@ -374,9 +374,21 @@ class GateLoginController extends Controller
                                 $message = "$smsVendor 簡訊傳送失敗，請聯繫系統管理員";
                                 Session::put('error',"$smsVendor 簡訊傳送失敗，請聯繫系統管理員");
                             }
-                        }else{
+                        }elseif($adminUser->verify_mode == '2fa'){
                             Session::put('adminData',['id'=>$id]);
                             return redirect()->to('2fa');
+                        }else{
+                            $adminUser->update(['lock_on' => 0]);
+                            Auth::guard('gate')->login($adminUser);
+                            // 驗證無誤 記錄後轉入 dashboard
+                            $log = AdminLoginLogDB::create([
+                                'admin_id' => $adminUser->id,
+                                'result' => $adminUser->name.' 登入成功',
+                                'ip' => $this->loginIp,
+                                'site' => '中繼後台',
+                            ]);
+                            activity('後台管理')->causedBy($adminUser)->log('登入成功');
+                            return redirect()->intended(route('gate.dashboard'));
                         }
                     }else{
                         $message = '帳號已被鎖定！請聯繫管理員。';
