@@ -1,0 +1,15 @@
+{
+  "name": "overlayScrollbars",
+  "homepage": "https://github.com/KingSora/OverlayScrollbars",
+  "version": "1.13.3",
+  "_release": "1.13.3",
+  "_resolution": {
+    "type": "version",
+    "tag": "v1.13.3",
+    "commit": "34a1dc5dc31b13f9ac88efac711dd33c4f4e6176"
+  },
+  "_source": "https://github.com/KingSora/OverlayScrollbars.git",
+  "_target": "1.13.3",
+  "_originalSource": "overlayScrollbars",
+  "_direct": true
+}

@@ -1,0 +1,102 @@
+/*!
+ *   Custom CSS
+ */
+
+#particles-js {
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.alert-float{
+    position: absolute;
+    top: 0;
+    z-index: 9999;
+}
+
+@media (min-width: 576px) {
+    .modal-sm {
+      max-width: 80%;
+    }
+  }
+
+  @media (min-width: 992px) {
+    .modal-lg,
+    .modal-xl {
+      max-width: 80%;
+    }
+  }
+
+  @media (min-width: 1200px) {
+    .modal-xl {
+      max-width: 80%;
+    }
+  }
+
+
+.btn-purple {
+    color: #ffffff;
+    background-color: #6f42c1;
+  }
+
+.badge-purple {
+    color: #ffffff;
+    background-color: #6f42c1;
+  }
+
+  a.badge-purple:hover, a.badge-purple:focus {
+    color: #ffffff;
+    background-color: #492788;
+  }
+
+  a.badge-purple:focus, a.badge-purple.focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(145, 44, 185, 0.5);
+  }
+  .text-warp {
+    word-break: break-all;
+    word-wrap: break-word;
+  }
+
+
+  .bg-light-yellow {
+    background-color: #ffeaaa;
+  }
+
+  .double-del-line {
+    text-decoration:line-through double;
+  }
+
+  .table-hover tbody tr i.fas.fa-store-alt-slash{
+    display:none;
+  }
+  .table-hover tbody tr i.fas.fa-store-alt-slash.active {
+    display:inline-block;
+    opacity:1;
+    color: #007bff!important;
+  }
+  .table-hover tbody tr:hover tr:hover i.fas.fa-store-alt-slash {
+    display:inline-block;
+    opacity:0.5;
+  }
+  .table-hover tbody tr:hover tr:hover i.fas.fa-store-alt-slash:hover,
+  .table-hover tbody tr:hover tr:hover i.fas.fa-store-alt-slash.active {
+      cursor: pointer;
+    opacity:1;
+    color: #007bff!important;
+  }
+  i.store-slash{
+    display:none;
+  }
+  i.store-slash.active {
+    display:inline-block;
+    opacity:1;
+    color: #007bff!important;
+  }
+  td:hover i.store-slash {
+    display:inline-block;
+    opacity:0.5;
+  }

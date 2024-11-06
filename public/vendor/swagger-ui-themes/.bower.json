@@ -1,0 +1,35 @@
+{
+  "name": "swagger-ui-themes",
+  "version": "3.0.1",
+  "homepage": "https://github.com/ostranme/swagger-ui-themes",
+  "author": "Mark Ostrander <ostranme@gmail.com>",
+  "description": "A collection of CSS themes for Swagger UI",
+  "main": [
+    "themes/*.css"
+  ],
+  "keywords": [
+    "theme",
+    "swagger",
+    "swagger UI",
+    "ui",
+    "flat"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "_release": "3.0.1",
+  "_resolution": {
+    "type": "version",
+    "tag": "v3.0.1",
+    "commit": "9290ea507531fb67efd44e633786d59209045ad5"
+  },
+  "_source": "https://github.com/ostranme/swagger-ui-themes.git",
+  "_target": "^3.0.1",
+  "_originalSource": "swagger-ui-themes",
+  "_direct": true
+}
