@@ -258,9 +258,9 @@
                         </div>
                     </div>
                     <div class="card-footer text-center bg-white">
-                        {{-- @if(in_array(isset($admin) ? $menuCode.'M' : $menuCode.'N', explode(',',Auth::user()->power))) --}}
+                        @if(in_array(isset($admin) ? $menuCode.'M' : $menuCode.'N', explode(',',Auth::user()->power)))
                         <button id="modifyBtn" type="button" class="btn btn-primary">{{ isset($admin) ? '修改' : '新增' }}</button>
-                        {{-- @endif --}}
+                        @endif
                         <a href="{{ url('admins') }}" class="btn btn-info">
                             <span class="text-white"><i class="fas fa-history"></i> 取消</span>
                         </a>
