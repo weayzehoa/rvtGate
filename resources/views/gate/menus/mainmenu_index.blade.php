@@ -75,7 +75,7 @@
                                         </td>
                                         <td class="text-center align-middle">
                                             @if($mainMenu->type == 1)
-                                            <span>iCarry後台</span>
+                                            <span>後台</span>
                                             @elseif($mainMenu->type == 2)
                                             <span>商家後台</span>
                                             @else

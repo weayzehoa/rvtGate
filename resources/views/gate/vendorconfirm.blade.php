@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>iCarry 廠商採購單確認</title>
+    <title>廠商採購單確認</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="{{ asset('vendor/Font-Awesome/css/all.min.css') }}">
     <link rel="stylesheet" href="{{ asset('vendor/icheck-bootstrap/icheck-bootstrap.min.css') }}">
@@ -17,7 +17,7 @@
     @include('gate.layouts.alert_message')
     <div class="login-box">
         <div class="login-logo">
-            <a href="javascript:" class="text-yellow"><b>iCarry 廠商採購單確認</b></a>
+            <a href="javascript:" class="text-yellow"><b>廠商採購單確認</b></a>
         </div>
         <div class="card">
             <div class="card-title p-2">

@@ -59,7 +59,7 @@
                                 <div class="col-3 mb-2">
                                     <div class="input-group">
                                         <div class="input-group-prepend">
-                                            <span class="input-group-text">iCarry訂單號碼</span>
+                                            <span class="input-group-text">訂單號碼</span>
                                         </div>
                                         <input type="datetime" class="form-control" id="partner_order_number" value="{{ $order->partner_order_number ?? null}}" disabled>
                                     </div>
@@ -604,7 +604,7 @@
             form.append($('<input type="hidden" class="formappend" name="status" value="'+status+'">'));
             form.append($('<input type="hidden" class="formappend" name="admin_memo" value="'+adminMemo+'">'));
             if(oldStatus != -1 && status == -1 && partnerOrderNumber != null){
-                if(confirm("注意!! 此訂單已成團，取消訂單將會連動取消iCarry訂單。\n請務必記得通知客戶，並作退款。")){
+                if(confirm("注意!! 此訂單已成團，取消訂單將會連動取消訂單。\n請務必記得通知客戶，並作退款。")){
                     form.submit();
                 }
             }else{

@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    @if(env('APP_ENV') == 'local')<title>iCarry 測試用中繼管理系統 - 登入</title>@else<title>iCarry 中繼管理系統 - 登入</title>@endif
+    @if(env('APP_ENV') == 'local')<title>測試用中繼管理系統 - 登入</title>@else<title>中繼管理系統 - 登入</title>@endif
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="{{ asset('vendor/Font-Awesome/css/all.min.css') }}">
     <link rel="stylesheet" href="{{ asset('vendor/icheck-bootstrap/icheck-bootstrap.min.css') }}">
@@ -25,7 +25,7 @@
     @include('gate.layouts.alert_message')
     <div class="login-box">
         <div class="login-logo">
-            <a href="javascript:" class="text-yellow"><b>iCarry {!! env('APP_ENV') == 'local' ? '開發團隊測試用<br>' : '' !!}中繼管理系統<br>IP設定</b></a>
+            <a href="javascript:" class="text-yellow"><b>{!! env('APP_ENV') == 'local' ? '開發團隊測試用<br>' : '' !!}中繼管理系統<br>IP設定</b></a>
         </div>
         <div class="card">
             <div class="card-body login-card-body">

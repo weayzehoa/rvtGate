@@ -981,7 +981,7 @@
                                 M欄 貨運別 判斷規則如下：<br />
                                 <ol>
                                     <li>01 台灣宅配通：<br />
-                                    iCarry 官網訂單 AND 機場提貨</li>
+                                    官網訂單 AND 機場提貨</li>
 
                                     <li>02 順豐速運：<br />
                                     任何訂單 AND ( 旅店提貨 OR 寄送當地 OR 寄送台灣 ) AND 順豐速打單非紅色標示<br />
@@ -1000,16 +1000,16 @@
                                     所有訂單 AND 寄送海外 AND 地址出現 新加坡 <br />
                                     蝦皮訂單 AND 寄送海外 AND 備註包括 (新加坡)</li>
                                     <li>04 LINEX-馬來西亞：<br />
-                                    iCarry 官網訂單 AND 寄送海外 AND 地址出現 馬來西亞</li>
+                                    官網訂單 AND 寄送海外 AND 地址出現 馬來西亞</li>
                                     <li>04 LINEX-法國：<br />
-                                    iCarry 官網訂單 AND 寄送海外 AND 地址出現 法國</li>
+                                    官網訂單 AND 寄送海外 AND 地址出現 法國</li>
                                     <li>04 LINEX-越南：<br />
-                                    iCarry 官網訂單 AND 寄送海外 AND 地址出現 越南</li>
+                                    官網訂單 AND 寄送海外 AND 地址出現 越南</li>
                                     <li>04 LINEX-泰國：<br />
-                                    iCarry 官網訂單 AND 寄送海外 AND 地址出現 泰國</li>
+                                    官網訂單 AND 寄送海外 AND 地址出現 泰國</li>
 
                                     <li>06 黑貓宅急便：<br />
-                                    iCarry 官網訂單 AND ( 旅店提貨 OR 寄送當地 ) AND 順豐速打單為紅色標示
+                                    官網訂單 AND ( 旅店提貨 OR 寄送當地 ) AND 順豐速打單為紅色標示
                                     蝦皮訂單 AND 寄送台灣 AND 備註包括 (台灣) AND 地址不包括 “全家” OR “7-11” AND 順豐速打單為紅色標示</li>
 
                                     <li>08 MOMO-宅配通：<br />

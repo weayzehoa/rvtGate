@@ -271,7 +271,7 @@
             content = content.replaceAll("(( date('Y-m-d') ))",today);
             content = content.replaceAll("(( date('Ymd') ))",TD);
             content = content.replaceAll("(( date('Y') ))",year);
-            content = content.replaceAll("(( $details['confirmUrl'] ))","https://icarry.me");
+            content = content.replaceAll("(( $details['confirmUrl'] ))","https://gate.rvt.idv.tw");
             content = content.replaceAll("(( $details['statementMonth'] ))","9");
             content = content.replaceAll("(( $details['statementYear'] ))","2022");
             content = content.replaceAll("(( $details['statementDateRang'] ))","2022-08-26 ~ 2022-09-25");
@@ -285,7 +285,7 @@
             content = content.replaceAll("(( $details['order']['receiver_time'] ))","01/06");
             content = content.replaceAll("(( $details['order']['airport_location'] ))","第一航廈-台灣宅配通櫃檯：位於 1 樓出境大廳（近 12 號報到櫃檯）");
             content = content.replaceAll("(( $details['order']['shipping_number'] ))","BC123456789,BC123456780");
-            content = content.replaceAll("(( $details['order']['receiver_name'] ))","iCarry 我來寄");
+            content = content.replaceAll("(( $details['order']['receiver_name'] ))","RVT");
             content = content.replaceAll("(( $details['order']['partner_order_number'] ))","KL1234567890");
             content = content.replaceAll("(( $details['order']['shippingData'] ))","台灣宅配通_1234567890,順豐_0987654321");
             content = content.replaceAll("(( $details['order']['am_print_link'] ))","https://icarry.me/asiamiles-print.php?o=5jhqDFjweiwemd5");

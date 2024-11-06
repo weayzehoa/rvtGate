@@ -58,12 +58,12 @@
                                     <div class="card-body">
                                         <div class="row">
                                             <div class="col-2 mt-2">
-                                                <label for="order_number">iCarry訂單編號:</label>
-                                                <input type="number" inputmode="numeric" class="form-control" id="order_number" name="order_number" placeholder="iCarry訂單單號" value="{{ isset($order_number) && $order_number ? $order_number : '' }}" autocomplete="off" />
+                                                <label for="order_number">訂單編號:</label>
+                                                <input type="number" inputmode="numeric" class="form-control" id="order_number" name="order_number" placeholder="訂單單號" value="{{ isset($order_number) && $order_number ? $order_number : '' }}" autocomplete="off" />
                                             </div>
                                             <div class="col-2 mt-2">
-                                                <label class="control-label" for="purchase_no">iCarry採購單號:</label>
-                                                <input type="text" class="form-control" id="purchase_no" name="purchase_no" placeholder="填寫iCarry採購單號" value="{{ isset($purchase_no) ? $purchase_no ?? '' : '' }}" autocomplete="off" />
+                                                <label class="control-label" for="purchase_no">採購單號:</label>
+                                                <input type="text" class="form-control" id="purchase_no" name="purchase_no" placeholder="填寫採購單號" value="{{ isset($purchase_no) ? $purchase_no ?? '' : '' }}" autocomplete="off" />
                                             </div>
                                             <div class="col-2 mt-2">
                                                 <label class="control-label" for="digiwin_no">鼎新貨號:</label>

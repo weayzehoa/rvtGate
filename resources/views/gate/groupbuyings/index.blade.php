@@ -90,7 +90,7 @@
                                             @endif
                                         @endif
                                         @if(!empty($order_number))<span class="badge badge-info mr-1"><span class="text-danger text-bold" style="cursor:pointer" onclick="removeCondition('order_number')">X</span> 團購訂單編號：{{ $order_number }}</span>@endif
-                                        @if(!empty($partner_order_number))<span class="badge badge-info mr-1"><span class="text-danger text-bold" style="cursor:pointer" onclick="removeCondition('partner_order_number')">X</span> iCarry訂單編號：{{ $partner_order_number }}</span>@endif
+                                        @if(!empty($partner_order_number))<span class="badge badge-info mr-1"><span class="text-danger text-bold" style="cursor:pointer" onclick="removeCondition('partner_order_number')">X</span> 訂單編號：{{ $partner_order_number }}</span>@endif
                                         @if(!empty($pay_time) || !empty($pay_time_end))
                                         <span class="badge badge-info mr-1"><span class="text-danger text-bold" style="cursor:pointer" onclick="removeCondition('pay_time')">X </span>
                                             付款時間區間：
@@ -154,8 +154,8 @@
                                                 </div>
                                             </div>
                                             <div class="col-3 mt-2">
-                                                <label for="order_number">iCarry訂單編號:</label>
-                                                <input type="number" inputmode="numeric" class="form-control" id="partner_order_number" name="partner_order_number" placeholder="成團後，iCarry訂單編號" value="{{ isset($partner_order_number) && $partner_order_number ? $partner_order_number : '' }}" autocomplete="off" />
+                                                <label for="order_number">訂單編號:</label>
+                                                <input type="number" inputmode="numeric" class="form-control" id="partner_order_number" name="partner_order_number" placeholder="成團後，訂單編號" value="{{ isset($partner_order_number) && $partner_order_number ? $partner_order_number : '' }}" autocomplete="off" />
                                             </div>
                                             <div class="col-3 mt-2">
                                                 <label for="receiver_name">收件人姓名:</label>
@@ -363,7 +363,7 @@
                                                 <hr class="mb-1 mt-1">
                                                 <div class="row mb-1">
                                                     <div class="col-6 text-sm">
-                                                        iCarry訂單號：<span class="badge badge-success">{{ $order->partner_order_number }}</span><br>
+                                                        訂單號：<span class="badge badge-success">{{ $order->partner_order_number }}</span><br>
                                                         @if($order->status >= 3)
                                                             @if(!empty($order->is_invoice_no))
                                                             <span class="text-sm">發票號碼：

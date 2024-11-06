@@ -81,7 +81,7 @@
                                                         <label for="sms_vendor">驗證器條碼</label><br>{{ $qrCodeUrl }}
                                                     </div>
                                                     <div class="form-group col-8">
-                                                        <span>請使用手機至 Apple/Google Store 下載並安裝 Google Authenticator。使用 APP 掃描左邊 QRCode 建立 iCarry 驗證碼產生器。</span>
+                                                        <span>請使用手機至 Apple/Google Store 下載並安裝 Google Authenticator。使用 APP 掃描左邊 QRCode 建立 驗證碼產生器。</span>
                                                         <br><button type="button" id="renew" class="mt-1 btn btn-sm btn-warning" value="{{ $admin->id }}">重新產生條碼</button>
                                                     </div>
                                                 </div>

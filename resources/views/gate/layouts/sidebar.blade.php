@@ -1,8 +1,8 @@
 <aside class="main-sidebar sidebar-dark-primary bg-navy elevation-4">
     <a href=" {{ route('gate.dashboard') }} " class="brand-link bg-navy text-center">
-        <img src="{{ asset('img/icarry-logo-white.png') }}" alt="iCarry Logo"
+        <img src="{{ asset('img/icarry-logo-white.png') }}" alt="Logo"
             class="brand-image img-circle elevation-3">
-        <span class="brand-text font-weight-light text-yellow float-left">iCarry 中繼管理系統</span>
+        <span class="brand-text font-weight-light text-yellow float-left">中繼管理系統</span>
     </a>
     <div class="sidebar">
         <nav id="sidebar" class="mt-2 nav-compact">

@@ -34,8 +34,8 @@
                             <div class="col-md-10 offset-1">
                                 <div class="row">
                                     <div class="form-group col-md-12">
-                                        <label for="order_number"><span class="text-red">* </span>icarry訂單號</label>
-                                        <input type="number" class="form-control {{ $errors->has('order_number') ? ' is-invalid' : '' }}" id="order_number" name="order_number" value="{{ $order_number ?? '' }}" placeholder="請輸入iCarry訂單號碼" required>
+                                        <label for="order_number"><span class="text-red">* </span>訂單號</label>
+                                        <input type="number" class="form-control {{ $errors->has('order_number') ? ' is-invalid' : '' }}" id="order_number" name="order_number" value="{{ $order_number ?? '' }}" placeholder="請輸入訂單號碼" required>
                                         @if ($errors->has('order_number'))
                                         <span class="invalid-feedback" role="alert">
                                             <strong>{{ $errors->first('order_number') }}</strong>

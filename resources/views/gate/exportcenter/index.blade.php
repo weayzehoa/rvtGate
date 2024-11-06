@@ -189,7 +189,7 @@
                                                 @if(!empty($export->cons['statement_no']))<span class="badge badge-info mr-1">對帳單編號：{{ $export->cons['statement_no'] }}</span>@endif
                                                 @if(!empty($export->cons['vendor_name']))<span class="badge badge-info mr-1">商家名稱：{{ $export->cons['vendor_name'] }}</span>@endif
                                                 @if(!empty($export->cons['erp_purchase_no']))<span class="badge badge-info mr-1">鼎新採購單號：{{ $export->cons['erp_purchase_no'] }}</span>@endif
-                                                @if(!empty($export->cons['purchase_no']))<span class="badge badge-info mr-1">iCarry採購單號：{{ $export->cons['purchase_no'] }}</span>@endif
+                                                @if(!empty($export->cons['purchase_no']))<span class="badge badge-info mr-1">採購單號：{{ $export->cons['purchase_no'] }}</span>@endif
                                                 @if(!empty($export->cons['return_discount_no']))<span class="badge badge-info mr-1">退貨折抵單號：{{ $export->cons['return_discount_no'] }}</span>@endif
                                                 @elseif($export->condition['model'] == 'products')
                                                     <span class="badge badge-info mr-1">
