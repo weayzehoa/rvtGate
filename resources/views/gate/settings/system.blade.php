@@ -134,7 +134,7 @@
                                     </div>
                                     <div class="form-group col-md-2">
                                         <label>最後修改管理員</label>
-                                        <br><span><b>{{ $system->admin->name }}</b> {{ $system->updated_at }}</span>
+                                        <br><span><b>{{ !empty($system->admin) ? $system->admin->name : '' }}</b> {{ $system->updated_at }}</span>
                                     </div>
                                 </div>
                             </div>
