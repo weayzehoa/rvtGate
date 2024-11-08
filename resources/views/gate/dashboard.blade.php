@@ -25,6 +25,7 @@
     <section class="content">
         <div>
             <h1 class="text-danger">此為 Roger's CodingLab 開發測試站台，內容資料數據皆為測試資料，並非實際正確資料。</h1>
+            <h1 class="text-danger">Guest帳號僅能瀏覽，其餘功能已關閉，無法作操作。</h1>
         </div>
     </section>
 </div>
