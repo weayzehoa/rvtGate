@@ -2,7 +2,7 @@
     <a href=" {{ route('gate.dashboard') }} " class="brand-link bg-navy text-center">
         <img src="{{ asset('img/icarry-logo-white.png') }}" alt="Logo"
             class="brand-image img-circle elevation-3">
-        <span class="brand-text font-weight-light text-yellow float-left">中繼管理系統</span>
+        <span class="brand-text font-weight-light text-yellow float-left">中繼管理系統 {{ env('APP_VERSION') }}</span>
     </a>
     <div class="sidebar">
         <nav id="sidebar" class="mt-2 nav-compact">
